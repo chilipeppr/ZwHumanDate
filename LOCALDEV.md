@@ -15,20 +15,20 @@ http://
 To install:
 npm install http-server -g
 
-To run on PC:
-http-server.cmd --cors
+To run on PC (turn on cors, turn off caching):
+http-server.cmd --cors -c-1
 
-To run on Mac/Linux:
-http-server --cors
+To run on Mac/Linux (turn on cors, turn off caching):
+http-server --cors -c-1
 
 Then visit:
 http://localhost:8080/plugin.js
 
 Or, if working on multiple projects...
 
-To run on PC:
+To run on PC (turn on cors, turn off caching):
 cd ..
-http-server.cmd --cors
+http-server.cmd --cors -c-1
 
 Then visit:
 http://localhost:8080/myPluginFolder/plugin.js
